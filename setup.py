@@ -20,7 +20,7 @@ setup(
         'Operating System :: OS Independent',
 	],
 	entry_points = {
-        'console_scripts': ['extn=extn.command_line:main'],
+        'console_scripts': ['extn=extn:main'],
     },
 	test_suite='nose.collector',
 	tests_require=['nose'],
