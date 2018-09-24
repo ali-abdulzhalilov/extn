@@ -21,5 +21,7 @@ setup(
 	],
 	entry_points = {
         'console_scripts': ['extn=extn.command_line:main'],
-    }
+    },
+	test_suite='nose.collector',
+	tests_require=['nose'],
 )
