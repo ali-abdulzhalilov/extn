@@ -7,8 +7,10 @@
 
 ### Example
 
-`>extn some_file.txt
-txt`
+```
+>extn some_file.txt
+txt
+```
 
 ## Installation
 Requires argparse
